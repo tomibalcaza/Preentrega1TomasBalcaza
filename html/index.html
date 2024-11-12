@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Edad Promedio</title>
+</head>
+<body>
+    <header>
+        <h1>Calculadora de Edad Promedio</h1>
+    </header>
+
+    <section>
+        <h2>Registra las Edades</h2>
+        <form id="edades">
+            <label for="edad">Ingresa la edad:</label>
+            <input type="numeros" id="edad" placeholder="Ej: 25" required>
+            <button type="button" onclick="agregarEdad()">Agregar Edad</button>
+        </form>
+
+        <button onclick="calcularPromedio()">Calcular Promedio</button>
+        <p id="resultado"></p>
+        <p id="edades-registradas"></p>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>
